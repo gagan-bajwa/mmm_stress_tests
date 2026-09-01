@@ -1,0 +1,16 @@
+[project]
+name = "mmm-stress-tests"
+version = "0.1.0"
+description = "Synthetic stress tests for Media Mix Model identifiability"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "statsmodels>=0.14",
+    "scikit-learn>=1.4",
+    "scipy>=1.11",
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+]
+

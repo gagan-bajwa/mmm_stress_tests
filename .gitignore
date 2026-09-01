@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Notebooks not yet published — reveal one at a time per LinkedIn post
+notebooks/simple_mmm_stress_test_multicollinearity.ipynb
+notebooks/simple_mmm_stress_test_02_always_on.ipynb
+notebooks/simple_mmm_stress_test_03_prior_sensitivity.ipynb
+notebooks/simple_mmm_stress_test_04_endogeneity.ipynb
+notebooks/simple_mmm_stress_test_05_weak_signal.ipynb
+notebooks/simple_mmm_stress_test_06_omitted_confounders.ipynb
+notebooks/simple_mmm_stress_test_07_baseline_flexibility.ipynb
+notebooks/simple_mmm_stress_test_08_adstock_misspecification.ipynb
+notebooks/simple_mmm_stress_test_09_saturation_misspecification.ipynb
+notebooks/simple_mmm_stress_test_10_sample_size.ipynb
+notebooks/simple_mmm_stress_test_11_outcome_noise.ipynb
+notebooks/simple_mmm_stress_test_12_holdout_fit_vs_attribution.ipynb
+notebooks/simple_mmm_stress_test_13_geo_vs_national.ipynb
+notebooks/simple_mmm_stress_test_14_experiment_calibration.ipynb
+notebooks/simple_mmm_stress_test_15_combined_realistic.ipynb
+
+# Results not yet published
+notebooks/mmm_stress_test_01_raw_results.csv
+notebooks/mmm_stress_test_01_summary.csv
+notebooks/mmm_stress_test_02_main_chart.png
+notebooks/mmm_stress_test_02_r2_chart.png
+notebooks/mmm_stress_test_02_raw_results.csv
+notebooks/mmm_stress_test_02_roas_ribbon.png
+notebooks/mmm_stress_test_02_summary.csv
+results/
+
+# Internal Claude memory — not for public repo
+.claude/
