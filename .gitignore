@@ -11,7 +11,7 @@ wheels/
 
 # Notebooks not yet published — reveal one at a time per LinkedIn post
 notebooks/simple_mmm_stress_test_multicollinearity.ipynb
-notebooks/simple_mmm_stress_test_02_always_on.ipynb
+
 notebooks/simple_mmm_stress_test_03_prior_sensitivity.ipynb
 notebooks/simple_mmm_stress_test_04_endogeneity.ipynb
 notebooks/simple_mmm_stress_test_05_weak_signal.ipynb
