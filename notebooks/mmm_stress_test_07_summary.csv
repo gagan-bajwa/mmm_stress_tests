@@ -1,0 +1,10 @@
+model_label,channel,true_roas,median_estimated_roas,median_relative_error_pct,probability_over_50pct_error_pct,coverage_90pct,mean_r2
+Model A (under-flexible: no seasonality controls),meta,2.0,1.9895523206131025,53.732449646704474,52.5,0.905,0.18589649918693582
+Model A (under-flexible: no seasonality controls),search,5.0,5.0456234205002595,29.1797598601361,22.5,0.905,0.18589649918693582
+Model A (under-flexible: no seasonality controls),tv,1.5,1.4097408591989344,32.27344927156975,32.5,0.87,0.18589649918693582
+Model B (correct specification),meta,2.0,2.14152242858308,31.086012465379454,26.5,0.885,0.7718018150025009
+Model B (correct specification),search,5.0,5.0696933114139595,17.575248815545635,2.0,0.92,0.7718018150025009
+Model B (correct specification),tv,1.5,1.4582715973647447,21.541684264675325,10.5,0.88,0.7718018150025009
+Model C (over-flexible: extra harmonics),meta,2.0,1.9926586262388208,8.391324840267538,0.0,0.91,0.9835622325171929
+Model C (over-flexible: extra harmonics),search,5.0,4.986434197634823,4.481189013416715,0.0,0.91,0.9835622325171929
+Model C (over-flexible: extra harmonics),tv,1.5,1.508819256160146,5.794010722265057,0.0,0.91,0.9835622325171929
